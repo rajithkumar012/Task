@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Heading */
+.form-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+}
+
+/* Input Fields */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Textarea */
+.form-container textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Button for Generating Description */
+.btn-generate {
+    background: #17a2b8;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 12px;
+}
+
+.btn-generate:hover {
+    background: #138496;
+}
+
+/* Button Container (Save & Cancel in One Line) */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Button Base Styles */
+.btn-save,
+.btn-cancel {
+    flex: 1;
+    min-width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+/* Save Button */
+.btn-save {
+    background: #007bff;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-save:hover {
+    background: #0056b3;
+}
+
+/* Cancel Button */
+.btn-cancel {
+    background: red;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background: darkred;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.checkbox-container input {
+    margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .form-container {
+        width: 90%;
+    }
+}
